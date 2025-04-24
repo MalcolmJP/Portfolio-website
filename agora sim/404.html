@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="icon" type="image/svg+xml" href="https://cdn.cdnlogo.com/logos/c/80/code.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: var(--spacing-xl) var(--spacing-lg);
+        }
+        
+        .error-code {
+            font-size: 10rem;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .error-message {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-lg);
+            max-width: 600px;
+        }
+        
+        .error-description {
+            margin-bottom: var(--spacing-lg);
+            color: var(--light-text);
+        }
+        
+        .home-button {
+            margin-top: var(--spacing-md);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Name©</div>
+            <ul class="nav-links">
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#works">Works</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <a href="index.html#contact" class="cta-button">Book a Call ↗</a>
+            <button class="menu-toggle">⮡</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <h1 class="error-message">Page Not Found</h1>
+            <p class="error-description">The page you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
+            <a href="index.html" class="cta-button home-button">Back to Homepage</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Socials</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="https://cdn.cdnlogo.com/logos/l/66/linkedin-icon-2.svg" alt="LinkedIn">
+                            <span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="https://cdn.cdnlogo.com/logos/i/92/instagram.svg" alt="Instagram">
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg" alt="GitHub">
+                            <span>GitHub</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Your Name. All rights reserved.</p>
+            <div class="local-time">Local time, CET</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
